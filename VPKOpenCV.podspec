@@ -13,7 +13,7 @@ s.source = { :http => "https://github.com/foundry/VPKOpenCV/raw/3.1.4/opencv2.fr
 
 s.preserve_paths = "opencv2.framework"
 s.source_files = "opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}"
-s.public_header_files = "opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}"
+s.public_header_files = ""
 s.vendored_frameworks = "opencv2.framework"
 s.header_dir = "opencv2"
 s.header_mappings_dir = "opencv2.framework/Versions/A/Headers/"
